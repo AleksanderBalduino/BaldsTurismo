@@ -1,0 +1,104 @@
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="login.js"></script>
+		<link rel="stylesheet" type="text/css" href="login.css">
+		
+	</head>
+	<body>
+	<!------------------ Menu do site ------------------>
+		<div id="navegacao">
+			<div id="area">
+				<div class="logo">
+					<div class="link-logo">
+						<a href="principal.html"><img src="imagens/balds2.png"></a>
+					</div>
+				</div>
+
+				<div id="menu" class="fonte">
+					<ul>
+						<li><a href="principal.html" style="color: #263f67;">Home</a></li>
+						<li><a href="hoteis.html" style="color: #df2f31;">Hotéis</a></li>
+						<li><a href="sobre.html" style="color: #27aae2;">Sobre</a></li>
+						<li><a href="login.html" style="color: #263f67;">Login</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!----------------------------------------------------------------->
+
+		<div class="container">
+			<div class="center">
+				<h1 class="login-h1">  <img class="menu-icon" src="imagens/menu-icon.png"> Login <img class="menu-icon" src="imagens/menu-icon.png"></h1>
+				<form id="formLogin" action="">
+					<h2 class="login-h2">
+						<label for="txtUsuario">Usuário:&nbsp&nbsp</label>
+						<input
+						id="txtUsuario" 
+						type="text" 
+						size="50" 
+						onfocus="this.style.backgroundColor='#cccccc'"
+						onfocusout="this.style.backgroundColor='#FFFFFF'"
+						autofocus=""
+						placeholder="Ex: Joãozinho123" name=""/>
+					</h2>
+
+					<div class="senha">
+						<h2 class="login-h02" class="center-h2">
+							<label for="txtSenha">Senha:&nbsp&nbsp&nbsp</label>
+					 		<input id="txtSenha" type="password" size="35"
+							onfocus="this.style.backgroundColor='#cccccc'"
+							onfocusout="this.style.backgroundColor='#FFFFFF'"/>
+						</h2>
+					</div>
+
+					<div class="botoes1">
+						<div class="esqueceu-senha">
+							<a href=".html">Esqueceu a senha?</a>
+						</div>
+					</div>
+
+					<div class="botaolimpar">
+							<input id="btnLimpar" type="button" value="Limpar   " onclick="limpar()"/>
+					</div>
+
+					<br><br>
+
+					<div class="botoes2">
+						<input id="btnCancelar" type="button" value="  Cancelar  " onclick="cancelar()"/>
+
+						<input id="btnLogar" type="button" value="  Login  " onclick="validarFormulario()"/>
+
+					</div>
+				</form>
+			</div>
+		</div>
+	<!----------------------------------------------------------------->
+
+		<br><br><br><br>
+
+		<!------------------ Footer ------------------>
+		<footer class="footer">
+			<div class="footer-geral">
+				<p style="color: white; font-size: 20px; margin-left: 50px; margin-top: 20px; border-bottom: 2px solid white; width: 70px; padding: 0px 20px 10px 20px; margin-bottom: 10px;">Contato</p>
+				<div class="email">
+					<p style="margin-left: 52px; font-size: 18px; color: white; margin-bottom: 7px;">E-mail : &nbspaleksbalduino@gmail.com</p>
+				</div>
+				<p style="color: white; font-size: 18px; margin-left: 52px;">Telefone : &nbsp+55 (16)98848-2652</p>
+			</div>
+
+			<br><br>
+
+			<div class="follow">
+				<p class="p-footer">&copy; 2019 - Aleksander Balduino</p>
+				<a href="https://www.facebook.com/aleksander.balduino" target="_blank"><img class="face-img" src="imagens/facebook1.png"></a> 
+				<a href="https://www.instagram.com/aleksander_balduino_/" target="_blank"><img class="insta-img" src="imagens/instagram1.png"></a>
+				<a href="https://www.linkedin.com/in/aleksander-balduino/" target="_blank"><img class="link-img" src="imagens/linkedin1.png"></a>
+				<a href="https://twitter.com/aleksbalduino" target="_blank"><img class="twit-img" src="imagens/twitter1.png"></a>
+			</div>
+		</footer>
+		<!----------------------------------------------------------------->
+		
+	</body>
+</html>

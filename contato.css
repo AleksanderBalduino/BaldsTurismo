@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+/*---------------- Menu do site ----------------*/
+#navegacao{
+	background: #4F4F4F;
+	padding: 0px;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1000;
+}
+
+.img-user{
+	padding-top: 5px;
+	width: 15px;
+	height: 15px;
+}
+
+#area{
+	width: 98%;
+	margin: 0 auto;	
+}
+
+#menu{
+	float: right;
+	padding: 11px 0px 15px 0px;
+}
+
+.fonte{
+	font-size: 18px;
+}
+
+.fonte a{
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.fonte a:link{
+	color: white;
+}
+
+.fonte a:visited{
+	color: white;
+}
+
+.fonte a:hover{
+	color: black;
+	background: #b9c941;
+}
+
+.fonte a:active{
+	color: white;
+}
+/*-------------------------------------------------------------*/
+
+/*---------------- Titulo de Contato ----------------*/
+#titulo{
+	margin: 75px 0px 30px 130px;
+}
+/*-------------------------------------------------------------*/

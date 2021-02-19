@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body{
+				font-family: Verdana
+			}
+			h1{
+				background-color: #DEDEDE;
+			}
+			.container {
+			  display: flex;
+			  justify-content: center;
+			}
+			.center {
+			  width: 300px;
+			}
+		</style>
+		
+		<script type="text/javascript" src="login.js"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<div class="center">
+				<h1> Login </h1>
+				<form id="formLogin" action="">
+				<h2>
+					Usuário:
+					<input 
+						id="txtUsuario" 
+						type="text" 
+						size="15" 
+						onfocus="this.style.backgroundColor='#FFFF90'"
+						onfocusout="this.style.backgroundColor='#FFFFFF'"
+					/>
+				</h2>
+				<h2>
+					 Senha:
+					 <input id="txtSenha" type="password" size="15"
+						onfocus="this.style.backgroundColor='#FFFF90'"
+						onfocusout="this.style.backgroundColor='#FFFFFF'"
+					 />
+				</h2>		
+				<input 
+					id="btnOk" 
+					type="button" 
+					value="  Ok  " 
+					onclick="validarFormulario()" 
+				/>
+				<input id="btnLimpar" type="button" value="  Limpar   " onclick="limpar()"/>
+			</form>
+			</div>
+		</div>
+		
+	</body>
+</html>

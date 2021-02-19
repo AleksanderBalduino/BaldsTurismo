@@ -1,0 +1,366 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f3f3f3;
+}
+
+/*---------------- Menu do site ----------------*/
+#navegacao{
+	background: #666666;
+	padding: 0px;
+	height: 62px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1000;
+}
+
+.logo{
+	padding-top: 3px;
+	margin-left: 30px;
+	margin-right: 680px;
+}
+
+.img-user{
+	padding-top: 5px;
+	width: 15px;
+	height: 15px;
+}
+
+#area{
+	width: 98%;
+	margin: 0 auto;	
+	display: inline-flex;
+}
+
+#menu{
+	float: right;
+	margin-left: 100px;
+	padding: 15px 0px 15px 0px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li{
+	list-style: none;
+	margin: 0 15px;
+	transition: 0.5s;
+}
+
+ul li a{
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 5px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	transition: 0.5s;
+}
+
+ul:hover li a{
+	transform: scale(1);
+}
+
+ul li a:hover{
+	transform: scale(1.6);
+	opacity: 1;
+	filter: blur(0);
+}
+/*-------------------------------------------------------------*/
+
+/*---------------- Hotéis das cidades ----------------*/
+#caixa-hoteis{
+	width: 85%;
+	height: 1770px;
+	margin-left: 110px;
+	margin-top: 80px;
+}
+
+.border-hotel{
+	border-bottom: 2px solid black;
+	width: 96.5%;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+.display-hotel{
+	display: inline-grid;
+}
+
+.area-hotel1
+{
+	width: 1130px;
+	height: 300px;
+	background: #808080;
+	margin-left: 10px;
+	display: inline-flex;
+	border-radius: 20px;
+}
+
+.img-hot1{
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+.inf-hot1{
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.concluir-hotel1
+{	
+	margin-left: 80px;
+	width: 300px;
+	height: 300px;
+}
+
+.border-hotel1{
+	border-bottom: 2px solid black;
+	width: 460px;
+	margin-left: 70px;
+	margin-bottom: 5px;
+}
+
+.border-stars{
+	border-left: 2px solid black;
+	width: 230px;
+	height: 265px;
+	margin-left: 10px;
+	margin-right: -280px;
+	margin-top: 18px;
+	padding-right: 20px;
+}
+
+.area-hotel2
+{
+	width: 1130px;
+	height: 300px;
+	background: #808080;
+	margin-left: 60px;
+	display: inline-flex;
+	border-radius: 20px;
+}
+
+.img-hot2{
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+.inf-hot2{
+	font-size: 22px;
+}
+
+.concluir-hotel2
+{
+	margin-left: 130px;
+	border: 2px solid black;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+.border-hotel2{
+	border-bottom: 2px solid black;
+	width: 460px;
+	margin-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.area-hotel3
+{
+	width: 1130px;
+	height: 300px;
+	background: #808080;
+	margin-left: 60px;
+	display: inline-flex;
+	border-radius: 20px;
+}
+
+.img-hot3{
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+.inf-hot3{
+	font-size: 22px;
+}
+
+.concluir-hotel3
+{
+	margin-left: 130px;
+	border: 2px solid black;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+.border-hotel3{
+	border-bottom: 2px solid black;
+	width: 460px;
+	margin-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.area-hotel4
+{
+	width: 1130px;
+	height: 300px;
+	background: #808080;
+	margin-left: 60px;
+	display: inline-flex;
+	border-radius: 20px;
+}
+
+.img-hot4{
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+.inf-hot4{
+	font-size: 22px;
+}
+
+.concluir-hotel4
+{
+	margin-left: 130px;
+	border: 2px solid black;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+.border-hotel4{
+	border-bottom: 2px solid black;
+	width: 460px;
+	margin-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.area-hotel5
+{
+	width: 1130px;
+	height: 300px;
+	background: #808080;
+	margin-left: 60px;
+	display: inline-flex;
+	border-radius: 20px;
+}
+
+.img-hot5{
+	height: 300px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+.inf-hot5{
+	font-size: 22px;
+}
+
+.concluir-hotel5
+{
+	margin-left: 130px;
+	border: 2px solid black;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+}
+
+.border-hotel5{
+	border-bottom: 2px solid black;
+	width: 460px;
+	margin-left: 75px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.stars{
+	display: inline-flex;
+}
+
+.finalizar{
+	margin-top: 20px;
+	margin-left: 76px;
+}
+
+#btnfinalizar{
+	font-size: 25px;
+	color: black;
+	background: #a6a6a6;
+	border-radius: 30px;
+}
+/*-------------------------------------------------------------*/
+
+/*---------------- Footer ----------------*/
+.footer{
+	position: absolute;
+	width: 100%;
+	height: 220px;
+	background: black;
+}
+
+.footer-geral{
+	margin-top: 20px;
+}
+
+.p-footer{
+	color: black;
+	font-size: 16px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	margin-right: 750px;
+}
+
+.follow{
+	width: 100%;
+	height: 70px;
+	background: white;
+	margin-bottom: 0px;
+	display: inline-flex;
+}
+
+.face-img{
+	margin-right: 30px;
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.insta-img{
+	margin-top: 3.5px;
+	margin-right: 30px;
+	width: 46px;
+	height: 46px;
+	margin-top: 13px;
+}
+
+.link-img{
+	margin-right: 28px;
+	width: 51px;
+	height: 51px;
+	margin-top: 10px;
+}
+
+.twit-img{
+	width: 53px;
+	height: 53px;
+	margin-top: -2px;
+	margin-top: 9px;
+}
+/*-------------------------------------------------------------*/
