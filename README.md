@@ -9,3 +9,5 @@ Aluno Aleksander Balduino - 2019 4° etapa do curso de Engenharia da Computaçã
 Proposta: Tem como objetivo, através das linguagens HTML, CSS e JavaScript, desafiar aos alunos a criar um site, de tema sobre a escolha do aluno, utilizando estas ferramentas.
 
 Obs: O uso da ferramenta Bootstrap não é permitida.
+
+Url do site: https://aleksanderbalduino.github.io/BaldsTurismo/principal
